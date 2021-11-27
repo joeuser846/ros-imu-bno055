@@ -6,6 +6,8 @@
         <param name="frame_id" type="string" value="imu" />
     </node>
 
-    <node pkg="tf" type="static_transform_publisher" name="imu_link_publisher" args="-0.02 -0.05 0 0 0 0 1 base_link imu 100" />
+
+    <node pkg="tf" type="static_transform_publisher" name="imu_link_publisher" args="0 0 0 0 0 0 base_link imu 20" />
+
 
 </launch>
