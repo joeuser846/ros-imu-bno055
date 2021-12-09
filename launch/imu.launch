@@ -7,7 +7,4 @@
     </node>
 
 
-    <node pkg="tf" type="static_transform_publisher" name="imu_link_publisher" args="0 0 0 0 0 0 base_link imu 50" />
-
-
 </launch>
